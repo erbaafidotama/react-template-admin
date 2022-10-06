@@ -6,5 +6,5 @@
 - [React Data Grid](https://reactdatagrid.io/) &rarr; Component Table
 - [React Router](https://reactrouter.com/en/main) &rarr; Router Management
 - [Zustand](https://github.com/pmndrs/zustand) &rarr; State Management
-- [Axios](https://axios-http.com/docs/intro_ &rarr; Communicator to Backend
+- [Axios](https://axios-http.com/docs/intro) &rarr; Communicator to Backend
 - [React](https://react-hook-form.com/) Hook Form &rarr; Creating Form and Validation Form

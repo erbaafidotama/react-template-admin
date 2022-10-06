@@ -7,4 +7,4 @@
 - [React Router](https://reactrouter.com/en/main) &rarr; Router Management
 - [Zustand](https://github.com/pmndrs/zustand) &rarr; State Management
 - [Axios](https://axios-http.com/docs/intro) &rarr; Communicator to Backend
-- [React Hook Form](https://react-hook-form.com/) Hook Form &rarr; Creating Form and Validation Form
+- [React Hook Form](https://react-hook-form.com/) &rarr; Creating Form and Validation Form

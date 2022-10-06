@@ -15,13 +15,11 @@ export const useWargaStore = create((set) => ({
   //   }
   fetchPeople: async (token) => {
     console.log("fetch token", token);
+    console.log("token berrr", "Bearer " + token);
     try {
       const response = await axios.get(url, {
         headers: {
-          Authorization: "Bearer " + token,
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Headers":
-            "access-control-allow-origin, access-control-allow-headers",
+          Authorization: `Bearer ${token}`,
         },
       });
       set((state) => ({ people: (state.data = response.data) }));

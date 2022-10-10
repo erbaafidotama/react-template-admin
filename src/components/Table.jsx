@@ -3,11 +3,11 @@ import "@inovua/reactdatagrid-community/index.css";
 
 const Table = (props) => {
   const { columnsTable, dataTable, onRowClick } = props;
-  console.log("props.dataTable", props.dataTable);
 
   const gridStyle = { minHeight: 550 };
   return (
     <div>
+      <br />
       <ReactDataGrid
         idProperty="id"
         columns={columnsTable}

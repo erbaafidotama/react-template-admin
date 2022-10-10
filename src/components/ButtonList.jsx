@@ -8,13 +8,14 @@ const ButtonList = (props) => {
   const { buttonList } = props;
 
   let createButtonList = [];
-  buttonList.forEach((element) => {
+  buttonList.forEach((element, id) => {
     if (element.typeButton === "add") {
       createButtonList.push(
         <Button
           variant="contained"
           startIcon={<AddIcon />}
           onClick={element.onClick}
+          key={id}
         >
           {element.label}
         </Button>
@@ -26,6 +27,7 @@ const ButtonList = (props) => {
           variant="contained"
           startIcon={<EditIcon />}
           onClick={element.onClick}
+          key={id}
         >
           {element.label}
         </Button>
@@ -37,6 +39,7 @@ const ButtonList = (props) => {
           variant="contained"
           startIcon={<DeleteIcon />}
           onClick={element.onClick}
+          key={id}
         >
           {element.label}
         </Button>

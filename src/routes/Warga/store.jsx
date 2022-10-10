@@ -8,7 +8,7 @@ export const useWargaStore = create((set) => ({
   fetchPost: async (token) => {
     try {
       const response = await axios.get(url);
-      console.log("response", response);
+
       set((state) => ({ posts: (state.posts = response) }));
     } catch (err) {
       set(() => ({ hasErrors: true }));
